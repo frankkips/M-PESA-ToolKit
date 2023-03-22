@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NewLab"
+        tools:targetApi="31">
+        <activity android:name=".AgentActivity"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity android:name=".ATMActivity"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity android:name=".BUyGoodsActivity"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity android:name=".KCBActivity"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity android:name=".MbankingActivity"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity android:name=".MSwariActivity"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity android:name=".MyBankAccountActivity"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity android:name=".MyPhoneActivity"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity android:name=".OtherPhoneActivity"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity android:name=".PayBillActivity"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity android:name=".SafaricomPlus"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity
+            android:name=".WithdrawCashActivity"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity
+            android:name=".SendMoneyActivity"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity
+            android:name=".BuyAirtimeActivity"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity
+            android:name=".LoansSavingsActivity"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity
+            android:name=".LipaNaMpesaActivity"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity
+            android:name=".MyAccountActivity"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdActivity"
+            android:theme="@style/AppTheme"
+            android:exported="false"
+            android:parentActivityName=".SecondActivity"/>
+        <activity
+            android:name=".SecondActivity"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
